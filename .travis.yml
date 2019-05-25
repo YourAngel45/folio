@@ -1,3 +1,15 @@
+language: node_js
+cache: npm
+git:
+  quiet: true
+branches:
+  only:
+  - master
+  - develop
+install:
+  - npm ci
+script:
+  - npm run build
 deploy:
   name: Alexandre Barone
   email: abalexandrebarone@gmail.com
