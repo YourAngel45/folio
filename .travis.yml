@@ -7,7 +7,6 @@ git:
 branches:
   only:
   - master
-  - develop
 install:
   - npm ci
 script:
