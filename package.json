@@ -2,7 +2,7 @@
   "name": "folio",
   "version": "1.0.1",
   "private": true,
-  "homepage" : "https://yourangel45.github.io/folio",
+  "homepage": "https://yourangel45.github.io/folio",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
