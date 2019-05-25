@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import logo from './assets/logo.svg';
 import logo from './assets/flaticon/124091-design-tools/004-cpu.svg';
 import './App.css';
 
