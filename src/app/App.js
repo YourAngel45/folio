@@ -92,7 +92,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <HashRouter basename='/'>
+        <HashRouter basename='/folio/'>
           <div className="App-main">
             <Route path="/" exact component={IndexPage} />
             <Route path="/about/" component={AboutPage} />
