@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - "10"
+  - '10'
 cache: npm
 git:
   quiet: true
 branches:
   only:
-  - master
+    - master
 install:
   - npm ci
 script:
