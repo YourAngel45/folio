@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Link } from 'react-router-dom';
 
 import icon_cpu from '../assets/flaticon/124091-design-tools/004-cpu.svg';
 import icon_3d from '../assets/flaticon/124091-design-tools/012-color-circle.svg';
@@ -92,7 +92,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <HashRouter basename='/'>
           <div className="App-main">
             <Route path="/" exact component={IndexPage} />
             <Route path="/about/" component={AboutPage} />
@@ -113,7 +113,7 @@ class App extends React.Component {
               </ul>
             </nav>
           </footer>
-        </Router>
+        </HashRouter>
       </div>
     );
   }
